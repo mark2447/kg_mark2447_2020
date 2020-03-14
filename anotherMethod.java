@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.Set;
 
 public class anotherMethod {
-    public boolean isIsomorphic(String s, String t) {
+    public boolean isRight(String s, String t) {
         Map<Character,Character> map=new HashMap<>();
         Set<Character> set=new HashSet<>();
         if(s==null) return true;
